@@ -1,0 +1,16 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "Tic-Tac-Toe app implemented with MEAN stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Kunal Saddi",
+  "dependencies": {
+    "express": "^4.13.3",
+    "serve-static": "^1.10.0",
+    "socket.io": "automattic/socket.io"
+  }
+}
