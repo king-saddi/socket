@@ -14,6 +14,4 @@ socket.on('message', function(msg){
     var textnode = document.createTextNode(msg);
     node.appendChild(textnode);
     var chatRoom = document.getElementById('messages').appendChild(node);
-
-
 });
